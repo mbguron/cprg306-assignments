@@ -5,7 +5,7 @@ export default function Item({ name, quantity, category }) {
         <span className="font-semibold text-white">{name}</span>
         <span className="text-sm text-white">Qty: {quantity}</span>
       </div>
-      <div className="mt-1 text-xs text-">Category: {category}</div>
+      <div className="mt-1 text-xs text-white">Category: {category}</div>
     </li>
   );
 }
